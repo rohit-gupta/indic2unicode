@@ -31,7 +31,7 @@ Unicode values of tokens is specified in langs/* and the regular expression to
 identify the tokens is specified in fonts/*.
 
 For tokenization purpose, I use a pure python implementation of lex-yacc namely
-<a href="http://www.dabeaz.com/ply/ply.html">ply</a>. I only use the lexing
+[ply](http://www.dabeaz.com/ply/ply.html). I only use the lexing
 facility provided by the module.
 
 RE-ORDERING TOKENS
