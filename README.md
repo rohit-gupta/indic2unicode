@@ -1,10 +1,10 @@
 Avaiable under Creative Commons Share Alike (CC SA) Licence 
 
-###Usage    
-    `python fontconv.py [-e encoding] -f fontname input_file output_file`
-    `default encoding is utf8`
+### Usage    
+    ```python fontconv.py [-e encoding] -f fontname input_file output_file```
+    default encoding is utf8
 
-###INTRODUCTION
+### INTRODUCTION
 
 In India, a large number of data sources like vernacular newspapers, magazine,
 loksabha website use proprietory fonts for displaying content in Indian
@@ -35,7 +35,7 @@ For tokenization purpose, I use a pure python implementation of lex-yacc namely
 [ply](http://www.dabeaz.com/ply/ply.html). I only use the lexing
 facility provided by the module.
 
-###RE-ORDERING TOKENS
+### RE-ORDERING TOKENS
 
 Tokens obtained after tokenization may not be in the right order as there are
 language specific rules. For example, in Aryan font Matra_I will appear before
