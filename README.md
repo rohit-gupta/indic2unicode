@@ -1,9 +1,10 @@
 Avaiable under Creative Commons Share Alike (CC SA) Licence 
 
-USAGE:    
-    python fontconv.py [-e encoding] -f fontname input_file output_file
-    default encoding is utf8
-INTRODUCTION
+###Usage    
+    `python fontconv.py [-e encoding] -f fontname input_file output_file`
+    `default encoding is utf8`
+
+###INTRODUCTION
 
 In India, a large number of data sources like vernacular newspapers, magazine,
 loksabha website use proprietory fonts for displaying content in Indian
@@ -22,7 +23,7 @@ indic2unicode converts data in proprietory fonts to unicode. It currently
 supports Aryan2, Divya and Surekh fonts for devanagari script that is used by
 the LokSabha website for publishing debates.
 
-MAIN IDEA
+###MAIN IDEA
 
 The main idea is to tokenize the input text in a given font and then use the
 unicode values of those tokens to get the unicode equivalent. 
@@ -34,7 +35,7 @@ For tokenization purpose, I use a pure python implementation of lex-yacc namely
 [ply](http://www.dabeaz.com/ply/ply.html). I only use the lexing
 facility provided by the module.
 
-RE-ORDERING TOKENS
+###RE-ORDERING TOKENS
 
 Tokens obtained after tokenization may not be in the right order as there are
 language specific rules. For example, in Aryan font Matra_I will appear before
