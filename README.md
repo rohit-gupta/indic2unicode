@@ -23,7 +23,7 @@ indic2unicode converts data in proprietory fonts to unicode. It currently
 supports Aryan2, Divya and Surekh fonts for devanagari script that is used by
 the LokSabha website for publishing debates.
 
-###MAIN IDEA
+### MAIN IDEA
 
 The main idea is to tokenize the input text in a given font and then use the
 unicode values of those tokens to get the unicode equivalent. 
