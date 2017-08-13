@@ -1,8 +1,8 @@
 Avaiable under Creative Commons Share Alike (CC SA) Licence 
 
 ### Usage    
-    `python fontconv.py [-e encoding] -f fontname input_file output_file`
-    default encoding is utf8
+`python fontconv.py [-e encoding] -f fontname input_file output_file`
+default encoding is utf8
 
 ### INTRODUCTION
 
